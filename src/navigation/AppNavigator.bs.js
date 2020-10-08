@@ -4,7 +4,7 @@ import * as React from "react";
 import * as AppStack from "./AppStack.bs.js";
 import * as AuthStack from "./AuthStack.bs.js";
 import * as ReactNavigation from "react-navigation";
-import * as AuthLoadingScreen from "./AuthLoadingScreen.bs.js";
+import * as AuthLoadingScreen from "../screen/AuthLoadingScreen.bs.js";
 import * as AppContainer$ReactNavigation from "reason-react-navigation/src/AppContainer.bs.js";
 
 var $$navigator = ReactNavigation.createSwitchNavigator({
