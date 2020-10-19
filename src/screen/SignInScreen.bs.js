@@ -13,9 +13,10 @@ var styles = ReactNative.StyleSheet.create({
         marginBottom: 5
       },
       container: {
+        backgroundColor: "#333333",
         alignItems: "center",
         flex: 1,
-        justifyContent: "center"
+        justifyContent: "space-between"
       }
     });
 
